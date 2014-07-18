@@ -1,0 +1,31 @@
+{
+  "name": "LandingPage",
+  "version": "0.0.1",
+  "authors": [
+    "René Cortez <rene.cortes@outlook.com>",
+    "Byron Arias <correo@correo.com",
+    "Alex Benavidez <correo@correo.com"
+  ],
+  "description": "LandingPage para aplicación móvil \"Memoria Centroamericana\"",
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "HTML5"
+  ],
+  "license": "MIT",
+  "homepage": "localhost",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "3.0.0",
+    "jquery": "~2.1.1",
+    "Landy-v1.0":"https://github.com/paolotripodi/Landy-v1.0.git"
+  }
+}

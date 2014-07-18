@@ -1,0 +1,14 @@
+{
+  "name": "MemoriaCentroamericana",
+  "version": "0.1.0",
+  "description": "LandingPage para aplicación móvil \"Memoria Centroamericana\"",
+  "main": "gruntfile.js",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-cssmin":"",
+    "grunt-contrib-watch":"",
+    "grunt-contrib-less":""
+  }
+}

@@ -1,0 +1,515 @@
+@import "iconfont.css";
+@import "animate.min.css";
+@color_letra_bg_w: black;
+@color_letra_bg_b: white;
+
+#inicio
+{
+	margin-top: -10%;
+}
+
+
+#acercade
+{
+	padding: 150px 0px 0px 0px;
+	height: 500px;
+	background: url('../img/img1.jpg');
+	background-color: white!important;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: @color_letra_bg_b;
+}
+
+
+#download
+{
+	background-color: @color_letra_bg_b;  
+	color: @color_letra_bg_w;  
+	border-width: 5px;  
+	border-radius: 5%;
+	margin-top: 15%;
+}
+
+body{
+	text-align: center;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
+	color: #3a3a3a;
+	font-weight: 700;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+p{
+	font-size: 1.2em;
+}
+
+.lead{
+	font-weight: 300;
+}
+
+button {
+	display: inline-block;
+	margin-bottom: 0;
+	margin-bottom: 10px;
+	padding: 6px 12px;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	border-radius: 5px;
+	vertical-align: middle;
+	text-align: center;
+	white-space: nowrap;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 1.428571429;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+
+.visibility{
+	visibility: hidden;
+}
+
+.animated{
+	visibility: visible!important;
+}
+
+
+
+header h1,
+.details .carousel,
+.social a:hover{
+color: @color_letra_bg_b;
+}
+
+.socialDev p{
+	color: #06b872;
+}
+
+.socialDev,
+.detail .carousel-indicators .active {
+	background: rgb(154, 183, 185);	
+}
+
+
+nav.navbar{
+	position: fixed;
+	top: -72px;
+	margin-bottom: 0px;
+	padding: 10px 0px 10px 0px;
+	width: 100%;
+	border-radius: 0px;
+	transition: all 0.2s;
+}
+
+.navbar-nav{
+	float: right;
+}
+
+nav.navbar.fixed-to-top{
+	top: 0px;
+}
+
+.navbar-default{
+	border: none;
+	border-bottom: 2px solid #008B8B;
+	background: #2E2E2E;
+	display: none;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: @color_letra_bg_b;
+	font-size: 1.2em;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
+	color: #3A3A3A;	
+	cursor: pointer;
+	-webkit-transition: all 300ms ease-in-out;
+	-moz-transition: all 300ms ease-in-out;
+	-ms-transition: all 300ms ease-in-out;
+	-o-transition: all 300ms ease-in-out;
+	transition: all 300ms ease-in-out;
+}
+
+.navbar-default .navbar-brand{
+	color: @color_letra_bg_b;
+	font-weight: 400;
+	font-size: 2em;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+/* HEADER 
+/*-----------------------------------------------------------------------------------*/
+
+header{
+	padding: 150px 0px 0px 0px;
+	height: 960px;
+	background: url('../img/img1.jpg');
+	background-color: white!important;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: @color_letra_bg_b;
+}
+
+header h1{
+	font-weight: 700;
+	font-weight: 300;
+	font-size: 100px;
+	font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+header p.lead{
+	font-size: 36px;
+}
+
+
+header .carousel-img{
+	margin-right: auto;
+	margin-top: auto;
+	width: 320px;
+	height: 672px;
+	background: url('../img/android-front.png') no-repeat;
+	background-size: 100%;
+}
+
+header .carousel {
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 95px 0px 0px 4px;
+	width: 282px;
+}
+
+header .carousel-indicators .active {
+	width: 15px;
+	height: 15px;
+	background: @color_letra_bg_b;
+}
+
+header .carousel-indicators {
+	bottom: -90px;
+}
+
+header .carousel-indicators li {
+	display: inline-block;
+	margin: 1px;
+	width: 15px;
+	height: 15px;
+	border: 1px solid @color_letra_bg_b;
+	border-radius: 10px;
+	text-indent: -999px;
+	cursor: pointer;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	DETAIL
+/*-----------------------------------------------------------------------------------*/
+
+.detail{
+	overflow: hidden;
+	padding: 50px 0px 0px 0px;
+	min-height: 500px;
+}
+
+.detail .title{
+	margin-bottom: 80px;
+	text-align: center;
+}
+
+.detail .socialDev .row{
+	margin-bottom: 40px;
+}
+
+.detail .carousel h1{
+	font-size: 3.8em;
+}
+
+.detail .carousel h1, .detail p{
+	text-align: left;
+	font-weight: 300;
+}
+
+.detail p{
+	color: #363636;
+}
+
+.detail .carousel-control{
+	background: none;
+}
+
+.detail .app-screenshot{
+	overflow: hidden;
+	overflow: hidden;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 95px;
+	width: 320px;
+	height: 450px;
+	background: url('../img/android-front.png') no-repeat;
+	background-size: 100%;
+}
+
+.detail .app-screenshot img{
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 4px;
+	width: 280px;
+}
+
+.detail .carousel-indicators {
+	position: relative;
+	bottom: 0;
+	left: 0;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding: 5px;
+	padding-bottom: 8px;
+	width: 100%;
+	border-top: 1px solid #eee;
+	background: #ffffff;
+}
+
+.detail .carousel-indicators .active {
+	width: 45px;
+	height: 5px;
+	border: none;
+	border-radius: 0px;
+}
+
+.detail .carousel-indicators li {
+	display: inline-block;
+	margin: 1px;
+	width: 45px;
+	height: 5px;
+	border: none;
+	border-radius: 0px;
+	background: #A29F9F;
+	text-indent: -999px;
+	cursor: pointer;
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	SOCIAL
+/*-----------------------------------------------------------------------------------*/
+
+.social{
+	overflow: hidden;
+	padding: 80px 0px 150px 0px;
+	min-height: 350px;
+	background: url('../img/img2.jpg');
+	background-position: center top;
+	background-repeat: repeat-x;
+	color: @color_letra_bg_b;
+}
+
+.social h2{
+	color: @color_letra_bg_b;
+}
+
+.social a {
+	margin-left: 10px;
+	color: #FFF;
+	font-size: 5em;
+	transition: all 0.3s;
+}
+
+.social a:hover{
+	text-decoration: none;
+	cursor: pointer;
+
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	aplicacion
+/*-----------------------------------------------------------------------------------*/
+
+.aplicacion{
+	padding: 100px 0px 160px 0px;
+	text-align: center;
+}
+
+.aplicacion button.play-store{
+	width: 152px;
+	height: 52px;
+	background: url(../img/badge-playstore.png) #FFFFFF no-repeat 0px 0px;
+	color: @color_letra_bg_b;
+}
+
+.aplicacion hr{
+	margin-top: 3em;
+	margin-bottom: 3em;
+}
+
+.aplicacion ul{
+	list-style-type: none;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+.aplicacion ul li{
+	display: inline-block;
+	margin-left:30px;
+}
+
+.aplicacion ul li:first-child{
+	margin-left: 0px;
+}
+
+.aplicacion ul li a{
+	color: #6B6B6B;
+	font-size: 1.2em;
+	-webkit-transition: all 300ms ease-in-out;
+	-moz-transition: all 300ms ease-in-out;
+	-ms-transition: all 300ms ease-in-out;
+	-o-transition: all 300ms ease-in-out;
+	transition: all 300ms ease-in-out;
+}
+
+.aplicacion ul li a:hover{
+	color: #000000;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	MEDIA QUERIES
+/*-----------------------------------------------------------------------------------*/
+
+@media (max-width:768px) {
+
+	header{
+		padding-bottom: 50px;
+		min-height: 1000px;
+		height: 100%;
+	}
+
+	.navbar-nav {
+		float: left;
+		text-align: left;
+	}
+
+
+}
+
+@media (max-width:992px) {
+
+	.detail .carousel h1, .detail p{
+		text-align: center;
+	}
+
+	.detail p{
+		margin-bottom: 60px;
+	}
+
+	header, .social{
+		background-position-y: 0px;
+		background-size: 200%;
+	}
+
+
+	.socialDev .col-md-4{
+		margin-bottom: 60px;
+	}
+
+}
+
+@media (max-width:480px){
+
+	header .carousel-img, .detail .app-screenshot{
+		width: 280px;
+	}
+
+	header .carousel, .detail .app-screenshot img{
+		padding-top: 85px;
+		width: 245px;
+	}
+
+	.detail .app-screenshot img{
+		margin-top: -12px;
+		padding-top: 0px;
+	}
+
+	header{
+		padding-top: 30px;
+		padding-bottom: 0px;
+	}
+
+	header h1{
+		font-size: 70px;
+	}
+
+	.socialDev col-md-4{
+		margin-bottom: 50px;
+	}
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	Página "Developers
+/*-----------------------------------------------------------------------------------*/
+
+#desarrolladores
+{
+	padding: 150px 0px 0px 0px;
+	height: 500px;
+	background: url('../img/img1_D.jpg');
+	background-color: white!important;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: @color_letra_bg_b;
+}
+
+.socialDev{
+	overflow: hidden;
+	padding: 150px 0px 150px 0px;
+	min-height: 400px;
+	color: @color_letra_bg_w;
+}
+
+.socialDev p {
+	font-weight: 400;
+}
+
+.socialDev h2{
+	color: #ffffff;
+	text-transform: uppercase;
+	font-weight: 300;
+}
+
+.socialDev .circle{
+	box-sizing: border-box;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 33px;
+	width: 150px;
+	height: 150px;
+	border: 2px solid #ffffff;
+	border-radius: 100%;
+	text-align: center;
+}
+
+.socialDev span.glyphicon, .socialDev i{
+	margin-top: 3px;
+	color: #ffffff;
+	font-size: 5em;
+}
+
+.socialDev h2{
+	color: #3D3D3D;
+}
+
+.socialDev p {	
+	color: #F7F0F0;
+}
