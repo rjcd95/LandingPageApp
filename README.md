@@ -22,3 +22,8 @@ Contenido:
 * Archivos CSS
 * Archivos Javascript 
 * Capturas de pantalla previas de la aplicación.
+
+Autores:
+* Byron Arias.
+* Alex Benavidez.
+* René Cortez
