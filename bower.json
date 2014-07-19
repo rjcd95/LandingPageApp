@@ -7,9 +7,6 @@
     "Alex Benavidez <correo@correo.com"
   ],
   "description": "LandingPage para aplicación móvil \"Memoria Centroamericana\"",
-  "moduleType": [
-    "amd"
-  ],
   "keywords": [
     "HTML5"
   ],
@@ -26,6 +23,6 @@
   "dependencies": {
     "bootstrap": "3.0.0",
     "jquery": "~2.1.1",
-    "Landy-v1.0":"https://github.com/paolotripodi/Landy-v1.0.git"
+    "Landy-v1.0": "https://github.com/paolotripodi/Landy-v1.0.git"
   }
 }
