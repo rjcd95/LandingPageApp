@@ -23,7 +23,7 @@
 
 #download
 {
-	background-color: rgba(255, 255, 255, 0);  
+	background-color: @color_letra_bg_b;  
 	color: @color_letra_bg_w;  
 	border-width: 5px;  
 	border-radius: 5%;
@@ -93,7 +93,7 @@ color: @color_letra_bg_b;
 
 .socialDev,
 .detail .carousel-indicators .active {
-	background: #088A68;	
+	background: rgb(154, 183, 185);	
 }
 
 
@@ -117,20 +117,18 @@ nav.navbar.fixed-to-top{
 
 .navbar-default{
 	border: none;
-	border-bottom: 2px solid ;
-	border-color: #088A68;
-	background: rgba(0, 0, 0, 0.93);
+	border-bottom: 2px solid #008B8B;
+	background: #2E2E2E;
 	display: none;
 }
 
 .navbar-default .navbar-nav>li>a {
-	color: @color_letra_bg_b;	
+	color: @color_letra_bg_b;
 	font-size: 1.2em;
 }
 
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
-	color: #088A68;	
-	font-weight: bold;
+	color: #3A3A3A;	
 	cursor: pointer;
 	-webkit-transition: all 300ms ease-in-out;
 	-moz-transition: all 300ms ease-in-out;
@@ -145,8 +143,6 @@ nav.navbar.fixed-to-top{
 	font-size: 2em;
 	font-family: 'Roboto Condensed', sans-serif;
 }
-
-
 
 
 /*-----------------------------------------------------------------------------------*/
@@ -341,7 +337,6 @@ header .carousel-indicators li {
 .aplicacion{
 	padding: 100px 0px 160px 0px;
 	text-align: center;
-	background:rgba(255, 255, 255, 0.54)
 }
 
 .aplicacion button.play-store{
@@ -383,7 +378,7 @@ header .carousel-indicators li {
 }
 
 .aplicacion ul li a:hover{
-	color: #088A68;
+	color: #000000;
 	text-decoration: none;
 	cursor: pointer;
 }
@@ -481,8 +476,6 @@ header .carousel-indicators li {
 	padding: 150px 0px 150px 0px;
 	min-height: 400px;
 	color: @color_letra_bg_w;
-	border-bottom: 1px solid ;
-	border-color: #000000;
 }
 
 .socialDev p {
@@ -519,10 +512,4 @@ header .carousel-indicators li {
 
 .socialDev p {	
 	color: #F7F0F0;
-}
-
-#Titulo_p{
-text-align: center;
-background-color: rgba(255, 255, 255, 0.0);
-height: 80px;
 }
