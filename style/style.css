@@ -155,6 +155,7 @@ header .carousel-img {
   height: 672px;
   background: url('../img/android-front.png') no-repeat;
   background-size: 100%;
+  margin-top: 110px;
 }
 header .carousel {
   position: relative;
